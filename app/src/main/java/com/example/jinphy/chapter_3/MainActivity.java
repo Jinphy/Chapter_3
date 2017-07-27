@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresPermission;
 import android.support.annotation.Size;
+import android.support.percent.PercentLayoutHelper;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,6 +51,5 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
     public void method(@IntRange(from = 1,to = 5) int x) {
-
     }
 }
